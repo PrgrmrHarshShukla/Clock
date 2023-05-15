@@ -26,12 +26,16 @@ function get () {
    let year = a.getFullYear()
    // console.log(year)
    
+   let element = document.getElementById("dc0")
+   element.innerHTML = dayName[day]
    
-   let el = document.getElementById("dc0")
-   el.innerHTML = `${dayName[day]} ${date} ${monthsName[month]} ${year}`
+   let el = document.getElementById("dc1")
+   el.innerHTML = `${date} ${monthsName[month]} ${year}`
 
-   let el1 = document.getElementById("dc1")
-   el1.innerHTML = `${hour}:${min}:${sec} `
+   let el1 = document.getElementById("dc2")
+   el1.innerHTML = `${hour}:${min}:${sec}`
+
+
    }
    
    get();

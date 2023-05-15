@@ -19,8 +19,9 @@ body {
    border-radius: 20px;
    width: max-content;
    padding: 50px;
+   gap: 10px;
 }
 
-#dc0, #dc1 {
+#dc0, #dc1, #dc2 {
    font-size: 3rem;
 }
