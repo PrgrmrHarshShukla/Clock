@@ -17,11 +17,13 @@ body {
    align-items: center;
    background-color: rgba(175, 246, 224,0.4);
    border-radius: 20px;
-   width: max-content;
    padding: 50px;
+   width: 30vw;
+   max-width: 300px;
    gap: 10px;
+   text-align: center;
 }
 
 #dc0, #dc1, #dc2 {
-   font-size: 3rem;
+   font-size: 4vw;
 }
