@@ -24,6 +24,10 @@ body {
    text-align: center;
 }
 
-#dc0, #dc1, #dc2 {
+#dc0, #dc1 {
    font-size: 4vw;
+}
+
+#dc2 {
+   font-size: 2vw;
 }
